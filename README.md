@@ -13,7 +13,7 @@ Feel free to explore my work and see how I turn complexity into clarity—and ri
 
 ## 🚨 Threat Hunting and Security Operations
 
-- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/joshmadakor0/threat-hunting-scenario-tor)**
+- **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/UchennaNicole/threat-hunting-scenario-tor)**
 
 <hr/>
 
