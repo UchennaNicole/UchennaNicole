@@ -1,17 +1,14 @@
-# 💻 <a href="www.linkedin.com/in/uchenna-nwankwo-cisa-cism-crisc-security-plus-98b200230">Uchenna Nwankwo </a>'s IT and Cybersecurity Project Portfolio 🔐
-
-## FEARLess Security Portfolio
+# 💻 <a href="www.linkedin.com/in/uchenna-nwankwo-cisa-cism-crisc-security-plus-98b200230">Uchenna Nwankwo </a>'s IT and Cybersecurity Project Portfolio 
 
 A collection of security labs, risk analyses, and infrastructure projects from a disciplined and evolving mind committed to mastering how security truly works.  
 
-I learn by doing — with focus, structure, and intention.  
+<a I learn by doing — with focus, structure, and intention.  
 
 This portfolio is where I design systems, assess risk, strengthen environments, and transform complexity into clarity.  
 
 It reflects how I approach security and life: with discipline, evolution, and a commitment to long-term impact.  
 
 **Focused. Evolving. Radiating. — FEARLess**
-
 
 
 ## ⚠️ Vulnerability Management Projects
