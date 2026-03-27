@@ -1,4 +1,4 @@
-# 💻 <a href="www.linkedin.com/in/uchenna-nwankwo-cisa-cism-crisc-security-plus-98b200230">Uchenna Nwankwo </a>'s IT and Cybersecurity Project Portfolio 
+# 💻 <a href="www.linkedin.com/in/uchenna-nwankwo-cisa-cism-crisc-security-plus-98b200230">Uchenna Nwankwo </a>'s Cybersecurity Project Portfolio 
 
 A collection of security labs, risk analyses, and infrastructure projects from a disciplined and evolving mind committed to mastering how security truly works.  
 
