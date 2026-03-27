@@ -1,4 +1,4 @@
-# <a href="www.linkedin.com/in/uchenna-nwankwo-cisa-cism-crisc-security-plus-98b200230">Uchenna Nwankwo </a>'s IT and Cybersecurity Project Portfolio 🔐
+# 💻 <a href="www.linkedin.com/in/uchenna-nwankwo-cisa-cism-crisc-security-plus-98b200230">Uchenna Nwankwo </a>'s IT and Cybersecurity Project Portfolio 🔐
 
 I’m a cybersecurity and GRC professional committed to showing up with clarity, confidence, and precision in everything I build. I approach security the FEARLess way—focusing on what matters, evolving through hands-on experience, and radiating excellence through impactful results.
 My work spans vulnerability management, continuous monitoring, risk assessments, and threat detection—grounded in frameworks like NIST RMF and real-world compliance execution. These projects aren’t just technical—they reflect discipline, strategy, and a commitment to strengthening security posture in meaningful ways.
