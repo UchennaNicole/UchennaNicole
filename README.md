@@ -14,7 +14,6 @@ It reflects how I approach security and life: with discipline, evolution, and a 
 ## ⚠️ Vulnerability Management Projects
 
 - **[Vulnerability Management Program Implementation](https://github.com/UchennaNicole/Vulnerability-Management-Program-FEARLess)**
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](https://github.com/joshcybertest/programmatic-vulnerability-remediations)**
 
 ## 🚨 Threat Hunting and Security Operations
 
