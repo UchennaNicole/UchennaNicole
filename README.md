@@ -2,7 +2,7 @@
 
 A collection of security labs, risk analyses, and infrastructure projects from a disciplined and evolving mind committed to mastering how security truly works.  
 
-<a I learn by doing — with focus, structure, and intention.  
+**I learn by doing — with focus, structure, and intention.**
 
 This portfolio is where I design systems, assess risk, strengthen environments, and transform complexity into clarity.  
 
