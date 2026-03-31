@@ -11,17 +11,17 @@ It reflects how I approach security and life: with discipline, evolution, and a 
 **Focused. Evolving. Radiating. — FEARLess**
 
 
-## ⚠️ Vulnerability Management Projects
+## 🖥️ Vulnerability Management Projects
 
 - **[Vulnerability Management Program Implementation](https://github.com/UchennaNicole/Vulnerability-Management-Program-FEARLess)**
 
-## 🚨 Threat Hunting and Security Operations
+## 📟 Threat Hunting and Security Operations
 
 - **[Threat Hunting Scenario (Tor Browser Usage)](https://github.com/UchennaNicole/threat-hunting-scenario-tor)**
 
 <hr/>
 
-## 🤳 Connect With Me
+## 📲 Connect With Me
 
 [<img align="left" alt="___________ | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="___________ | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
