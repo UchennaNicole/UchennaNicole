@@ -25,19 +25,26 @@
     PS C:\> .\STIG-ID-WN10-AU-000500.ps1 
 #>
 
-# Define the registry path and value
-$registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
-$valueName = "MaxSize"
-$valueData = 32768  # 0x00008000 in hexadecimal
+# WN11-AU-000500: Application Event Log Size must be configured to 32768 KB or greater
+# Sets MaxSize to 0x8000 (32768 KB) under the EventLog Application policy key
 
-# Check if the registry path exists, if not create it
+$registryPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
+$valueName    = "MaxSize"
+$valueData    = 0x00008000
+$valueType    = "DWord"
+
+# Create the key if it doesn't exist
 if (-not (Test-Path $registryPath)) {
-    New-Item -Path $registryPath -Force
+    New-Item -Path $registryPath -Force | Out-Null
+    Write-Host "Registry path created: $registryPath"
 }
 
-# Set the MaxSize value
-Set-ItemProperty -Path $registryPath -Name $valueName -Value $valueData -Type DWord
+# Set the registry value
+Set-ItemProperty -Path $registryPath -Name $valueName -Value $valueData -Type $valueType
 
-# Output success message
-Write-Host "Registry value '$valueName' set to '$valueData' at '$registryPath'."
- 
+# Verify the change was applied
+$result = Get-ItemProperty -Path $registryPath -Name $valueName
+Write-Host "Registry value set successfully."
+Write-Host "Path  : $registryPath"
+Write-Host "Name  : $valueName"
+Write-Host "Value : 0x$('{0:X8}' -f $result.$valueName) ($($result.$valueName) decimal)"
