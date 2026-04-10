@@ -1,6 +1,6 @@
  <#
 .SYNOPSIS
-  STIG WN11-CC-000038 — Disable WDigest Authentication (UseLogonCredential)
+  STIG WN11-CC-000325 — DConfigures Windows 11 to prevent automatic user sign-in following a system-initiated restart by setting the DisableAutomaticRestartSignOn registry value to 1. This ensures that after a restart triggered by Windows Update or other system processes, the user is required to manually authenticate rather than being signed in automatically, preventing unauthorized access to an unattended system in compliance with DOD requirements.
 
 .NOTES
     Author          : Uchenna Nwankwo
