@@ -2,6 +2,29 @@
 .SYNOPSIS
     STIG WN11-SO-000195 — Prevent Storage of LAN Manager Hash
 
+.NOTES
+    Author          : Uchenna Nwankwo
+    LinkedIn        : linkedin.com/in/uchennanwankwo/
+    GitHub          : github.com/uchennanicole
+    Date Created    : 2024-09-04
+    Last Modified   : 2024-09-04
+    Version         : 1.0
+    CVEs            : N/A
+    Plugin IDs      : N/A
+    STIG-ID         : WN11-SO-000195
+
+.TESTED ON
+    Date(s) Tested  : 
+    Tested By       : 
+    Systems Tested  : 
+    PowerShell Ver. : 
+
+.USAGE
+    Put any usage instructions here.
+    Example syntax:
+    PS C:\> .\STIG-ID-WN11-SO-000195.ps1 
+#><#
+
 .DESCRIPTION
     Ensures the NoLMHash registry value exists and is set to 1, preventing
     Windows from storing LAN Manager hash values in the SAM database on the
