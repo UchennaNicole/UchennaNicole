@@ -1,6 +1,6 @@
  <#
 .SYNOPSIS
-    This PowerShell script ensures that the maximum size of the Windows Application event log is at least 32768 KB (32 MB).
+    Configures Windows 11 to disable the convenience PIN login option for domain accounts by setting the AllowDomainPINLogon registry value to 0. This ensures users cannot authenticate using a simple numeric PIN in place of their domain password or smartcard, enforcing stronger authentication methods and reducing the risk of unauthorized access through weak credentials in compliance with DOD requirements.
 
 .NOTES
     Author          : Uchenna Nwankwo
@@ -24,3 +24,13 @@
     Example syntax:
     PS C:\> .\STIG-ID-WN11-CC-000370.ps1 
 #>
+
+#Requires -RunAsAdministrator
+
+$RegPath  = 'HKLM:\Software\Policies\Microsoft\Windows\System'
+$RegName  = 'AllowDomainPINLogon'
+$RegValue = 0
+$RegType  = 'DWord'
+
+if (-not (Test-Path $RegPath)) { New-Item -Path $RegPath -Force | Out-Null }
+Set-ItemProperty -Path $RegPath -Name $RegName -Value $RegValue -Type $RegType -Force
