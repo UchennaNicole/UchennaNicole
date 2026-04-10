@@ -25,3 +25,12 @@
     PS C:\> .\STIG-ID-WN11-CC-000325..ps1 
 #><#
 
+#Requires -RunAsAdministrator
+
+$RegPath  = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System'
+$RegName  = 'DisableAutomaticRestartSignOn'
+$RegValue = 1
+$RegType  = 'DWord'
+
+if (-not (Test-Path $RegPath)) { New-Item -Path $RegPath -Force | Out-Null }
+Set-ItemProperty -Path $RegPath -Name $RegName -Value $RegValue -Type $RegType -Force
